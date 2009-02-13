@@ -1,0 +1,26 @@
+
+This is a revamped version of Ross Poulton's django-form.
+I made this repo to experiment with adding django-forum to Pinax.
+
+The changes this far:
+    -- move everythng but LICENSE.TXT and README.TXT into
+        a new subdir named "forum"
+
+    -- added a setup.py in the main directory
+
+    -- moved "forum/templates/forum_base.html" to
+        "forum/templates/forum/base.html" and made the
+        other forum templates extend "forum/base.html"
+        instead of "forum_base.html"
+
+Still to do:
+    -- move the media stuff out of base.html and make forum.css
+    -- make the base.html pinax friendly.
+
+Note that besides this file and the setup.py which I added,
+every file is really the work of Ross Poulton and the other
+contributors to django-forum.
+
+If my experiements work out OK, I will be submitting this stuff
+back to Ross's project. After that I plan to delete this repo.
+
